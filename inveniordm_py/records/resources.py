@@ -61,7 +61,7 @@ class Record(Resource):
 
     @property
     def versions(self):
-        """Creates and rerturns record versions API object."""
+        """Creates and returns record versions API object."""
         return RecordVersions(self._client, **self.endpoint_args)
 
     @property

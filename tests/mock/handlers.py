@@ -14,7 +14,7 @@ from abc import ABC, abstractmethod
 class Handler(ABC):
     """Base handler class.
 
-    This class creates an interfact to handle requests from the mock server.
+    This class creates an interface to handle requests from the mock server.
     """
 
     def handle(self, request):
